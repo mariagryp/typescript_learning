@@ -2,12 +2,12 @@
 
 ## Lesson 1:
 
-    - npm i typescript -g - _ install typescript globally _
-    - tsc main.ts -w - _ watching for file changes*
-    - tsc --init  - _ tsconfig.json-file _
+    - npm i typescript -g //install typescript globally
+    - tsc main.ts -w // watching for file changes
+    - tsc --init // tsconfig.json-file
       - *set settings*
         - "rootDir": './src'
-        - "outDir": './build/js' - _ where the js will be compiled _
+        - "outDir": './build/js' // where the js will be compiled
         - "target": "es2016"
-        - "include": ["src"] - _ not compile .ts-file outside the src-dir. _
-        - "noEmitOnError": true - _ if preferred, stop compiling if there is an error in the .ts-file _
+        - "include": ["src"] // not compile .ts-file outside the src-dir.
+        - "noEmitOnError": true // if preferred, stop compiling if there is an error in the .ts-file
