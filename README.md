@@ -24,3 +24,12 @@
 - : any
 - : union types
 - : regular expression (RegExp)
+
+## Tutorial 3:
+
+### Data Types:
+
+- : arrays
+- : tuples
+- : objects
+- : enums
