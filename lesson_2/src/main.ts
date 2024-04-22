@@ -3,10 +3,10 @@ let meaningOfLife: number;
 let isLoading: boolean;
 let album: string | number;
 
-myName = "maija";
-meaningOfLife = 43;
-isLoading = true;
-album = 1986;
+myName = "maija"; // string 
+meaningOfLife = 43; // number
+isLoading = true; //boolean
+album = 1986; // number
 //album = true;
 album = "magnum";
 
@@ -17,4 +17,6 @@ const num = (a: number, b: number) => {
 console.log(num(5, 10));
 
 let postId: string | number;
-let isACtive: number | boolean;
+let isActive: number | boolean;
+
+let re: RegExp = /\w+/g;
