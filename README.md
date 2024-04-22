@@ -18,9 +18,9 @@
 
 ### Data Types:
 
-: string
-: number
-: boolean
-: any
-: union types
-: regular expression (RegExp)
+- : string
+- : number
+- : boolean
+- : any
+- : union types
+- : regular expression (RegExp)
